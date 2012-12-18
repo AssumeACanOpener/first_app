@@ -4,6 +4,7 @@ gem 'rails', '3.2.9'
 
 group :development do
   gem 'sqlite3'
+  gem 'therubyracer'
 end
 
 group :assets do
@@ -14,7 +15,6 @@ end
 
 gem 'jquery-rails'
 gem 'execjs'
-gem 'therubyracer'
 
 group :production do
   gem 'pg'
